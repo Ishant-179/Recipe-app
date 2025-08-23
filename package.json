@@ -12,7 +12,8 @@
     "dev": "expo start --web",
   "build:web": "expo export:web",
   "preview": "vercel preview",
-  "deploy": "vercel --prod"
+  "deploy": "vercel --prod",
+  "vercel-build": "npm run build:web"
   },
   "dependencies": {
     "@clerk/clerk-expo": "^2.14.23",
